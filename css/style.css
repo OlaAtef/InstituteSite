@@ -392,6 +392,9 @@ header .btn:hover{
     .container{
         padding: 0 1rem;
     }
+    header{
+        background-image:  url(/images/about-image.jpg) ;
+    }
     header .navbar{
         flex-direction: column;
         justify-content: center;
@@ -432,6 +435,9 @@ header .btn:hover{
     #location .content .location p,
     .footer p  {
         font-size: 13.5px;
+    }
+    #about .content .image img {
+        display: none;
     }
     #departments .departments-content{
         grid-template-columns: repeat(1 , 1fr);
