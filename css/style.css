@@ -39,7 +39,7 @@ body{
 }
 
 header{
-    background-image: linear-gradient(rgba(0,0,0,0.2) , rgba(0,0,0,0.2) , rgba(0,0,0,0.2)) , url(/images/bg-image.jpg) ;
+    background-image: linear-gradient(rgba(0,0,0,0.2) , rgba(0,0,0,0.2) , rgba(0,0,0,0.2)) , url(./images/bg-image.jpg) ;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -393,7 +393,7 @@ header .btn:hover{
         padding: 0 1rem;
     }
     header{
-        background-image:  url(/images/about-image.jpg) ;
+        background-image:  url(./images/about-image.jpg) ;
     }
     header .navbar{
         flex-direction: column;
