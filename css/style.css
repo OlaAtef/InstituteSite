@@ -39,7 +39,7 @@ body{
 }
 
 header{
-    background-image: linear-gradient(rgba(0,0,0,0.2) , rgba(0,0,0,0.2) , rgba(0,0,0,0.2)) , url(./images/bg-image.jpg) ;
+    background-image: url(/images/about-image.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -56,7 +56,7 @@ header .navbar{
     padding: 10px 0;
 }
 header .navbar .logo-img{
-    max-width: 70px;
+    max-width: 60px;
     width: fit-content;
     user-select: none;
 }
@@ -76,11 +76,11 @@ header .navbar .nav-link:hover{
     color: var(--light-color);
 }
 #back-arrow{
-    font-size: 19px;
+    font-size: 17px;
     color: var(--light-color);
     background-color: var(--primary-color);
-    width: 40px;
-    height: 40px;
+    width: 30px;
+    height: 30px;
     border-radius: 50%;
     display: flex;
     align-items: center;
@@ -100,9 +100,10 @@ header #home .content{
     color: var(--light-color);
 }
 header #home .content h2{
+    font-size: 22px;
     font-weight: 600;
-    line-height: 1.3;
-    margin-bottom: 10px;
+    line-height: 2.3;
+    /* margin-bottom: 10px; */
 }
 header #home .content p{
     font-size: 15px;
@@ -114,9 +115,9 @@ header #home .content p{
     background-color: var(--primary-color);
     border: 1px solid var(--primary-color);
     border-radius: 10px;
-    padding: 10px 50px;
+    padding: 10px 40px;
     margin-top: 1rem;
-    font-size: 21px;
+    font-size: 19px;
     font-weight: 500;
     color: var(--light-color);
     transition: all .4s ease;
@@ -143,7 +144,7 @@ header .btn:hover{
     margin-bottom: 5rem;
 }
 .title h3{
-    font-size: 37px;
+    font-size: 32px;
     font-weight: 600;
 }
 .title h3 span{
@@ -159,25 +160,25 @@ header .btn:hover{
     flex-basis: 43%;
 }
 #about .content .text h2{
-    font-size: 29px;
+    font-size: 25px;
     font-weight: 600;
     color: var(--light-color);
     margin-bottom: 10px;
 }
 #about .content .text p{
-    font-size: 18px;
+    font-size: 17px;
     font-weight: 500;
     color: #cfcfcf;
     line-height: 1.9;
     /* width: 720px; */
 }
 #about .content .text .facebook-icon{
-    font-size: 25px;
+    font-size: 19px;
     color: var(--light-color);
     background-color: transparent;
     border: 2px solid var(--light-color);
     border-radius: 10px;
-    padding: 7px 15px; 
+    padding: 7px 10px;
     margin-right: 1rem;
     transition: all .3s ease;
 }
@@ -203,7 +204,7 @@ header .btn:hover{
     display: grid;
     grid-template-columns: repeat(3 , 1fr);
     gap: 20px;
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
 }
 #departments .departments-content .department-item {
     transition: all .4s ease;
@@ -227,13 +228,13 @@ header .btn:hover{
     margin: 1rem 0;
 }
 #departments .departments-content .text-item h3{
-    font-size: 23px;
+    font-size: 21px;
     font-weight: 600;
     color: var(--light-color);
     margin-bottom: 10px;
 }
 #departments .departments-content .text-item p{
-    font-size: 16px;
+    font-size: 15px;
     font-weight: 400;
     color: var(--light-color);
     line-height: 1.5;
@@ -268,15 +269,16 @@ header .btn:hover{
     width: 100%;
 }
 #location .content .location .map-icon{
-    font-size: 25px;
+    font-size: 20px;
     color: var(--primary-color);
     margin-left: 10px;
 }
 #location .content .location h2{
-    margin-bottom: 10px;
+    margin-top: 10px;
+    font-size: 21px;
 }
 #location .content .location h3{
-    font-size: 23px;
+    font-size: 20px;
     margin-bottom: 15px;
 }
 #location .content .location p{
@@ -300,8 +302,10 @@ header .btn:hover{
     object-fit: cover;
 }
 #questions .content .image img{
-    width: 100%;
+    width: 90%;
     border: 3px solid var(--primary-color);
+    display: block;
+    margin: 0 auto;
 }
 /* /////////////////////// */
 .footer{
@@ -310,13 +314,13 @@ header .btn:hover{
     text-align: center;
 }
 .footer p{
-    font-size: 17px;
+    font-size: 14px;
     font-weight: 600;
-    letter-spacing: .7px;
+    letter-spacing: 0.3px;
     color: var(--secondary-color);
 }
 .footer p .footer-btn{
-    font-size: 18px;
+    font-size: 14px;
     color: var(--light-color);
     transition: all .3s ease;
     padding: 5px;
@@ -352,7 +356,6 @@ header .btn:hover{
     }
     .btn {
         padding: 10px 40px;
-        font-size: 19px;
     }
     #about .content {
         flex-direction: column;
@@ -393,7 +396,7 @@ header .btn:hover{
         padding: 0 1rem;
     }
     header{
-        background-image:  url(./images/about-image.jpg) ;
+        background-image:  url(images/about-image.jpg) ;
     }
     header .navbar{
         flex-direction: column;
@@ -473,4 +476,3 @@ header .btn:hover{
         font-size: 14px;
     }
 }
-
